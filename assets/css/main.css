@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    @apply leading-relaxed;
+  }
+}
+.ct-top-menu-item {
+  @apply cursor-pointer py-1 hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0
+     after:lg:left-0 after:lg:bg-gray-300  after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
+}
+.ct-highlight {
+  @apply font-semibold  underline-offset-4 underline decoration-dashed decoration-[1.5px];
+}
+.ct-stack {
+  @apply outline outline-1 outline-gray-300 rounded-sm px-2 text-xs text-slate-950 font-mono text-center;
+}
+.ct-button {
+  @apply tracking-wider    rounded-xl  py-[10px] px-4 text-[13px] text-center font-semibold cursor-pointer hover:bg-opacity-90 duration-200;
+}
+.ct-link {
+  @apply hover:transition-all hover:duration-300 hover:text-blue-500 transition-all duration-300 ease-in-out;
+}
+@media screen(xl) {
+  .ct-parallax {
+    height: 70vh;
+    transform-style: preserve-3d;
+  }
+  .ct-parallax-image {
+    transform: translateZ(-1px) scale(1.5);
+  }
+}
