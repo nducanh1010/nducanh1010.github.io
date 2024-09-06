@@ -86,7 +86,7 @@ useSeoMeta({
     <!-- About me Section -->
     <div class="py-16 text-left">
       <div class="text-primary font-semibold">About me</div>
-      <div class="text-xl mt-4 leading-normal">
+      <div class="text-base mt-4 leading-normal">
         I'm a front-end software engineer with a passion for crafting beautiful
         and intuitive digital experiences. My expertise lies in translating
         design concepts into seamless, responsive interfaces that delight users
